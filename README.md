@@ -16,12 +16,7 @@ search_queries =
   
   
 def downloadimages(query): 
-    # keywords is the search query 
-    # format is the image file format 
-    # limit is the number of images to be downloaded 
-    # print urs is to print the image file url 
-    # size is the image size which can be specified manually ("large, medium, icon") 
-    # aspect ratio denotes the height width ratio 
+    
     arguments = {"keywords": query, 
                  "format": "jpg", 
                  "limit":4, 
